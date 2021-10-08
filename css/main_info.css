@@ -1,0 +1,19 @@
+.main{
+    width: 100%;
+    height: 600px;
+    background-color: #f7ece4;
+}
+.main li{
+    list-style-type: square;
+    margin-left: 50px;
+    font-family: Times New Roman, sans-serif;
+    font-size: 120%;
+    padding-top: 20px;
+}
+.main a{
+    text-decoration: none;
+    color: #400e07;
+} 
+.main a:hover{
+    color: #000000;
+} 

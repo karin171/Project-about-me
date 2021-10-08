@@ -1,0 +1,117 @@
+*{margin: 0px; padding: 0px;}
+.header{
+    width: 100%;
+    height: 80px;
+    background-color: #19524d;
+}
+.header{
+    display: flex;
+    align-items: center;
+    color: white;
+    justify-content: space-around;
+}
+.nav li{
+    list-style-type: none;
+    display: inline;
+    font-size: 150%;
+    font-family: Times, serif; 
+    font-style: italic;
+    padding: 20px 50px;
+}
+.nav a{
+    text-decoration: none;
+    color: white;
+} 
+.nav a:hover{
+    color: #59d3c3;
+}
+.number p{
+    font-size: 110%;
+    font-family: Times, serif; 
+    font-style: italic;
+}
+.main{
+    width: 100%;
+    height: 1100px;
+    background-color: #dee6e5;
+    padding: 0px 100px;
+}
+.main li{
+    list-style-type: square;
+    margin-left: 50px;
+    font-family: Times New Roman, sans-serif;
+    font-size: 120%;
+    padding-top: 20px;
+}
+.book1, .book2{
+    display: flex;
+    justify-content: flex-start;
+    align-items: stretch;
+}
+.block{
+    width: 300px;
+    height: 450px;
+    background-color: #687e7c;
+    border: 3px solid #1c413d;
+    margin: 50px 60px 0px;
+}
+.block img{
+    margin: 20px 45px;
+    border: 3px solid #1c413d;
+}
+.block h2{
+    color: #062925;
+    text-align: center;
+    font-size: 150%;
+}
+.block p{
+    color: #062925;
+    text-align: center;
+}
+.block button{
+    padding: 3px;
+    margin-left: 115px;
+    margin-top: 5px;
+    background-color: rgb(6, 46, 46);
+    color: white;
+}
+.book2{
+    display: flex;
+    justify-content: flex-start;
+    align-items: stretch;
+}
+.footer{
+    width: 100%;
+    height: 200px;
+    background-color: #19524d;
+    display: flex;
+    justify-content: flex-start;
+    
+}
+.block1, .block2{
+    background-color: white;
+    width: 400px;
+    height: 150px;
+    margin: 30px;
+}
+.footer p{
+    font-family: Times, serif; 
+    font-style: italic;
+    color: teal;
+    padding: 25px;
+}
+.block4, .block5,.block6{
+    background-color: white;
+    height: 30px;
+    width: 30px;
+    border-radius: 100%;
+}
+.block4{
+    margin: 100px 0px 0px 200px;
+}
+.block5{
+    margin: 100px 50px 0px ;
+}
+.block6{
+    margin: 100px 0px;
+}

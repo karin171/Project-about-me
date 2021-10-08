@@ -1,0 +1,16 @@
+.main{
+    width: 100%;
+    height: 600px;
+    background-color: #f7ece4;
+}
+.main p{
+    margin-left: 50px;
+    font-family: Times New Roman, sans-serif;
+    font-size: 120%;
+    padding-top: 20px;
+}
+.main button{
+    margin-left: 50px;
+    font-family: Times New Roman, sans-serif;
+    font-size: 120%;
+}
