@@ -44,7 +44,7 @@
 .main img{
     width: 960px;
     height: 560px;
-    margin: 20px 300px;
+    margin: 20px 0px 0 300px;
     border-radius: 20px;
 } 
 .alist{
