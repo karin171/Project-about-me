@@ -3,8 +3,6 @@
     width: 100%;
     height: 80px;
     background-color: #19524d;
-}
-.header{
     display: flex;
     align-items: center;
     color: white;
@@ -32,9 +30,8 @@
 }
 .main{
     width: 100%;
-    height: 1100px;
-    background-color: #dee6e5;
-    padding: 0px 100px;
+    height: 1500px;
+    background-color: #ffffff;
 }
 .main li{
     list-style-type: square;
@@ -47,31 +44,47 @@
     display: flex;
     justify-content: flex-start;
     align-items: stretch;
+    padding: 0px 100px;
 }
-.block{
+.book1 .block{
     width: 300px;
-    height: 450px;
-    background-color: #687e7c;
-    border: 3px solid #1c413d;
+    height: 625px;
+    background-color: #ffffff;
+    border: 2px solid #ffffff;
     margin: 50px 60px 0px;
+    
+}
+.block:hover{
+    border: 2px solid #b6b8b8c7;
+    border-radius: 3%;
+    box-shadow: 0 0 10px rgba(122, 122, 122, 0.5);    
 }
 .block img{
     margin: 20px 45px;
-    border: 3px solid #1c413d;
 }
 .block h2{
     color: #062925;
     text-align: center;
-    font-size: 150%;
+    font-size: 100%;
+    font-family: Calibri, serif;
+    font-weight: normal;
+}
+.block hr{
+    width: 260px;
+    margin: 5px 20px;
 }
 .block p{
     color: #062925;
-    text-align: center;
+    text-align: justify;
+    font-size: 90%;
+    font-family: Calibri, serif;
+    font-weight: normal;
+    margin: 1px 20px;
 }
 .block button{
     padding: 3px;
     margin-left: 115px;
-    margin-top: 5px;
+    margin-top: 7px;
     background-color: rgb(6, 46, 46);
     color: white;
 }
@@ -79,6 +92,13 @@
     display: flex;
     justify-content: flex-start;
     align-items: stretch;
+}
+.book2 .block{
+    width: 300px;
+    height: 728px;
+    background-color: #ffffff;
+    border: 2px solid #ffffff;
+    margin: 50px 60px 0px;
 }
 .footer{
     width: 100%;
@@ -114,4 +134,10 @@
 }
 .block6{
     margin: 100px 0px;
+}
+.logo1{
+    margin: 70px;
+}
+.logo1 img{
+    border-radius: 100%;
 }

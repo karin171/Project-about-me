@@ -1,27 +1,32 @@
 *{margin: 0px; padding: 0px;}
-.header, .footer{
+.header{
     width: 100%;
     height: 80px;
     background-color: #11032b;
+    display: flex;
+    align-items: center;
+    color: white;
+    justify-content: space-around;
 }
-.header ul{
-    padding-left: 100px;
-    padding-top: 20px;
-}
-.header li{
+.nav li{
     list-style-type: none;
     display: inline;
     font-size: 150%;
     font-family: Times, serif; 
     font-style: italic;
-    padding-left: 100px;
+    padding: 20px 50px;
 }
-.header a{
+.nav a{
     text-decoration: none;
     color: white;
 } 
-.header a:hover{
+.nav a:hover{
     color: #a590b9;
+}
+.number p{
+    font-size: 110%;
+    font-family: Times, serif; 
+    font-style: italic;
 }
 .main{
     width: 100%;
@@ -76,9 +81,44 @@
     padding: 40px;
     font-size: 110%;
 }
+.footer{
+    width: 100%;
+    height: 200px;
+    background-color: #11032b;
+    display: flex;
+    justify-content: flex-start;
+    
+}
+.block1, .block2{
+    background-color: white;
+    width: 400px;
+    height: 150px;
+    margin: 30px;
+}
 .footer p{
     font-family: Times, serif; 
     font-style: italic;
-    color: #ffffff;
-    padding: 45px 100px 0px;
+    color: #361c42;
+    padding: 25px;
+}
+.block4, .block5,.block6{
+    background-color: white;
+    height: 30px;
+    width: 30px;
+    border-radius: 100%;
+}
+.block4{
+    margin: 100px 0px 0px 200px;
+}
+.block5{
+    margin: 100px 50px 0px ;
+}
+.block6{
+    margin: 100px 0px;
+}
+.logo1{
+    margin: 70px;
+}
+.logo1 img{
+    border-radius: 100%;
 }
